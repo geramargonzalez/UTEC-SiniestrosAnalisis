@@ -69,7 +69,6 @@ print(dataUy.shape)
 print('El conjunto de datos tiene 7.802 observaciones (filas) y 19 variables originales (columnas).')
 
 
-
 #5. ¿Qué encontró relevante de los principales estadísticos?
 dataUy.describe()
 
