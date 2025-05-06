@@ -3,8 +3,6 @@
 #Importamos la base de datos preprocesada anteriormente llamada "preprocesamiento_siniestros2022.csv"
 import numpy as np
 import pandas as pd
-from google.colab import drive
-drive.mount('/content/drive')
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -15,11 +13,9 @@ import plotly.express as px
 
 #EL FILE PATH SE DEBE AJUSTAR AL CAMINO DE CADA UNO!
 file_path = "/content/drive/MyDrive/UTEC - Python/Equipo/preprocesamiento_siniestros2022.csv"
-#file_path = "/content/drive/MyDrive/preprocesamiento_siniestros2022.csv"
-#Compartido conmigo/
+#EL FILE PATH SE DEBE AJUSTAR AL CAMINO DE CADA UNO!
+file_path = "preprocesamiento_siniestros2022.csv"  # Ajusta esta ruta a la ubicación de tu archivo
 df = pd.read_csv(file_path)
-
-# Verificamos que se cargó correctamente
 df.head()
 
 # Verificamos las estadisticas principales
