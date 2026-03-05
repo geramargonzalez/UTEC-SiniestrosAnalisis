@@ -1,4 +1,4 @@
-# 🚗 UTEC - Análisis de Siniestros de Tránsito (Montevideo 2022)
+#  UTEC - Análisis de Siniestros de Tránsito (Montevideo 2022)
 
 Proyecto académico desarrollado en el marco del curso de Python de **UTEC (Universidad Tecnológica del Uruguay)**.  
 El objetivo es aplicar técnicas de preprocesamiento y análisis exploratorio de datos (EDA) sobre el conjunto de datos de siniestros de tránsito ocurridos en Montevideo durante el año 2022.
